@@ -7,7 +7,6 @@
 GLUON_SITE_PACKAGES := \
 	gluon-mesh-batman-adv-15 \
 	gluon-alfred \
-	gluon-announced \
 	gluon-autoupdater \
 	gluon-config-mode-autoupdater \
 	gluon-config-mode-core \
@@ -30,6 +29,7 @@ GLUON_SITE_PACKAGES := \
 	haveged \
 	iptables \
 	iwinfo \
+	tobox-32mb-patch \
 
 ifeq ($(GLUON_TARGET),x86-generic)
 # support the usb stack on x86 devices
